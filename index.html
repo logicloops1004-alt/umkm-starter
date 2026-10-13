@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pesan langsung via WhatsApp">
+  <title>Memuat…</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img id="logo" alt="" hidden>
+    <h1 id="name"></h1>
+    <p id="tagline"></p>
+    <a id="heroWa" class="btn" target="_blank" rel="noopener">Chat WhatsApp</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Menu / Layanan</h2>
+      <div id="items"></div>
+    </section>
+
+    <section>
+      <h2>Data Pemesan</h2>
+      <div id="fields" class="fields"></div>
+    </section>
+
+    <section class="info">
+      <h2>Lokasi & Jam Buka</h2>
+      <p id="address"></p>
+      <p id="hours"></p>
+      <p>
+        <a id="maps" class="btn ghost" target="_blank" rel="noopener">Buka di Google Maps</a>
+        <a id="ig" class="btn ghost" target="_blank" rel="noopener" hidden>Instagram</a>
+      </p>
+    </section>
+  </main>
+
+  <footer><small id="foot"></small></footer>
+
+  <div id="cartBar" class="cartbar" hidden>
+    <span id="cartInfo"></span>
+    <button id="sendBtn" class="btn">Kirim via WhatsApp</button>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
